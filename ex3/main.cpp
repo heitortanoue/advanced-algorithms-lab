@@ -73,7 +73,7 @@ int main()
 
         for (auto it = res.begin(); it != res.end(); it++)
         {
-            cout << it->second.substr(0, it->second.length() - 1) << " " << it->first << endl;
+            cout << it->second << " " << it->first << endl;
         }
     }
 
